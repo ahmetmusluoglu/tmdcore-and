@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <turkuvaz.general.turkuvazgeneralwidgets.CategoryTabs.CategoryTabs
+        android:id="@+id/categoryTabs_videoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/frame_ProgrammesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RLTabs" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.SuccessOrErrorBar.LoadStatus
+        android:id="@+id/ls_Programmes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/relLayVideoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+
+</RelativeLayout>

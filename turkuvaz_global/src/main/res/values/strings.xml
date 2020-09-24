@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Turkuvaz Global</string>
+        <string name="html_content">
+        <![CDATA[
+        <!DOCTYPE html>
+
+            <head>
+            <style type="text/css">
+            @font-face { font-family: Exo-Black; src: url("file:///android_asset/fonts/Exo-Black.ttf") }
+            @font-face { font-family: Exo-BlackItalic; src: url("file:///android_asset/fonts/Exo-BlackItalic.ttf") }
+            @font-face { font-family: Exo-Bold; src: url("file:///android_asset/fonts/Exo-Bold.ttf") }
+            @font-face { font-family: Exo-BoldItalic; src: url("file:///android_asset/fonts/Exo-BoldItalic.ttf") }
+            @font-face { font-family: Exo-ExtraBold; src: url("file:///android_asset/fonts/Exo-ExtraBold.ttf") }
+            @font-face { font-family: Exo-ExtraBoldItalic; src: url("file:///android_asset/fonts/Exo-ExtraBoldItalic.ttf") }
+            @font-face { font-family: Exo-ExtraLight; src: url("file:///android_asset/fonts/Exo-ExtraLight.ttf") }
+            @font-face { font-family: Exo-ExtraLightItalic; src: url("file:///android_asset/fonts/Exo-ExtraLightItalic.ttf") }
+            @font-face { font-family: Exo-Italic; src: url("file:///android_asset/fonts/Exo-Italic.ttf") }
+            @font-face { font-family: Exo-Light; src: url("file:///android_asset/fonts/Exo-Light.ttf") }
+            @font-face { font-family: Exo-LightItalic; src: url("file:///android_asset/fonts/Exo-LightItalic.ttf") }
+            @font-face { font-family: Exo-Medium; src: url("file:///android_asset/fonts/Exo-Medium.ttf") }
+            @font-face { font-family: Exo-MediumItalic; src: url("file:///android_asset/fonts/Exo-MediumItalic.ttf") }
+            @font-face { font-family: Exo-Regular; src: url("file:///android_asset/fonts/Exo-Regular.ttf") }
+            @font-face { font-family: Exo-SemiBold; src: url("file:///android_asset/fonts/Exo-SemiBold.ttf") }
+            @font-face { font-family: Exo-SemiBoldItalic; src: url("file:///android_asset/fonts/Exo-SemiBoldItalic.ttf") }
+            @font-face { font-family: Exo-Thin; src: url("file:///android_asset/fonts/Exo-Thin.ttf") }
+            @font-face { font-family: Exo-ThinItalic; src: url("file:///android_asset/fonts/Exo-ThinItalic.ttf") }
+            </style>
+
+            <meta charset="UTF-8">
+                %1$s
+            </head>
+
+            <body>
+               <div class="app-cover %2$s"> %3$s </div>
+            </body>
+
+        </html>
+        ]]>
+    </string>
+
+    <string name="menu_description">Menu</string>
+    <string name="quality">Quality</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="normal">Normal</string>
+    <string name="auto">Auto</string>
+    <string name="live">LIVE</string>
+    <string name="powered_by">Spark Player %1$s</string>
+    <string name="bullet">\u2022</string>
+    <string name="wait_ad">You can skip this ad in</string>
+    <string name="skip_ad">Skip Ad \u25baI</string>
+    <string name="bilgi">Bilgi</string>
+    <string name="hata_bildir">Hatayı Bildir</string>
+    <string name="hata_acikla">"Hatayı nasıl aldığınızı kısaca açıklar mısınız?"</string>
+    <string name="kisaca_acikla">Lütfen kısaca açıklayın.</string>
+    <string name="facebook_yuklu_degil">"Facebook uygulaması yüklü değil!"</string>
+    <string name="twitter_yuklu_degil">"Twitter uygulaması yüklü değil!"</string>
+    <string name="whatsapp_yuklu_degil">"WhatsApp uygulaması yüklü değil!"</string>
+    <string name="haberi_paylas">Haberi Paylaş</string>
+    <string name="canli_yayin">Canlı Yayın</string>
+    <string name="skip_ad2">You can skip this ad</string>
+
+    <string name="error_service_detail">Haber servislerimizde bir hata oluştu. Geri bildirimde bulunmak ister misiniz?</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layStatusBar"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#22242A"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_exchangeOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_gray_line"
+        android:gravity="center">
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_exchangeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#A9FFFFFF"
+            android:textSize="11dp"
+            app:fontType="Exo_SemiBold" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_exchangeCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_exchangeName"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            app:fontType="Exo_SemiBold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:scrollbarFadeDuration="0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/lineColumnist"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#9E9E9E" />
+
+        <FrameLayout
+            android:id="@+id/frame_columnistTopBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_newsDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="end"
+            android:textColor="#9E9E9E"
+            android:textSize="11sp"
+            app:fontType="Exo_SemiBold" />
+
+        <TextView
+            android:id="@+id/tv_newsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_newsSpot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <turkuvaz.sdk.global.SpecialWebView
+            android:id="@+id/web_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_columnistPrivacyPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openPrivacyPolicy"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <FrameLayout
+            android:id="@+id/frame_columnistBottomBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

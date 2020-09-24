@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationsNews.NotificationsNewsActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_notificationsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/btn_backNotifications"
+            android:layout_width="wrap_content"
+            android:paddingLeft="16dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_onOffNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/ac_kapat"
+            android:textColor="@android:color/white"
+            app:fontType="Exo_Regular" />
+
+        <TextView
+            android:id="@+id/notifyBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_backNotifications"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textStyle="bold"
+            android:text="@string/bildirimler"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_notificationsNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_notificationsToolbar" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.SuccessOrErrorBar.LoadStatus
+        android:id="@+id/ls_notificationsNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+</RelativeLayout>

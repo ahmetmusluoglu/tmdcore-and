@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ly_columnistItemRoot"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bottom_gray_toolbar_line"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_authorImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#969A9B">
+
+                <ImageView
+                    android:id="@+id/img_authorImage1"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|bottom" />
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/card_authorImage"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp">
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/txtTiele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:fontType="Exo_Bold" />
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_authorDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text=""
+                android:textSize="14sp"
+                app:fontType="Exo_Regular" />
+
+        </LinearLayout>
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_authorDate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:textSize="11dp"
+            app:fontType="Exo_Regular" />
+    </RelativeLayout>
+
+</LinearLayout>

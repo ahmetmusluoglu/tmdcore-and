@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layTvStream"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imgBtnAppLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ahaber_logo_mini" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/tv_streamingTime"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:text="10:00"
+        android:textColor="@color/beyaz"
+        android:textSize="18sp"
+        app:fontType="Exo_Bold" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/tv_streamingName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="TEST YAYINI"
+        android:textColor="@color/beyaz"
+        android:textSize="19sp"
+        app:fontType="Exo_Bold" />
+
+    <Button
+        android:id="@+id/btn_tvStreamTryAgain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:text="@string/yayin_akisi_bos"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imgBtnOpenStream"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_play_white_tv_stream" />
+
+</LinearLayout>

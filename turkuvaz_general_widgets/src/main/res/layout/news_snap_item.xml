@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:id="@+id/rlSnap"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_snapNewsImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_snapNewsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/img_snapNewsImage"
+            android:layout_alignTop="@id/img_snapNewsImage"
+            android:layout_alignEnd="@+id/img_snapNewsImage"
+            android:layout_alignBottom="@id/img_snapNewsImage"
+            android:background="@drawable/gradiant_shadow_black"
+            android:ellipsize="end"
+            android:gravity="start|bottom"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:fontType="Exo_SemiBold" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

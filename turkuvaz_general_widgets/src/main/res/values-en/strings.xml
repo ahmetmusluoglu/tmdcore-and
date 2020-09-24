@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TurkuvazGeneralWidgets</string>
+
+    <string name="label_visible_dot_count">Visible dot count</string>
+    <string name="label_page_count">Page count</string>
+
+    <string name="title_recycler">RecyclerView</string>
+    <string name="title_pager">ViewPager</string>
+
+    <string name="sayfa_yukleniyor">"Loading page.."</string>
+    <string name="yazarlar_yuklenemedi">"Authors could not be loaded.\nTouch to retry."</string>
+    <string name="yazarlar">AUTHORS</string>
+    <string name="servis_hata">There was a problem connecting to our services. Please check your internet connection and try again.</string>
+    <string name="hata_aciklama">"Can you briefly explain how you got the error?"</string>
+    <string name="bilgi">Information</string>
+    <string name="hata_bildir">Report Error</string>
+    <string name="gonderildi">Message Sent.</string>
+    <string name="aciklayin">Please explain briefly.</string>
+    <string name="haber_bos">"The news list is empty. \nTouch to refresh."</string>
+    <string name="sayfa_hatasi">"There was an error loading the page. Please check your internet connection and try again."</string>
+    <string name="manset_yuklenemedi">"Headline news could not be loaded.\nTouch to retry."</string>
+    <string name="gazete_yuklenemedi">"Newspapers failed to load.\nTouch to retry."</string>
+    <string name="son_dakika">LAST MINUTE</string>
+    <string name="son_dakika_kucuk">Last Minute</string>
+    <string name="yazar_sec">Choose Columnist</string>
+    <string name="konum_degistir">Change Location</string>
+    <string name="son_dakika_bos">"The Last Minute list is empty.\nTouch to refresh."</string>
+    <string name="yayin_akisi_bos">"The Tv stream list is empty.\nTouch to refresh."</string>
+    <string name="canli_yayin">Live Broadcast</string>
+    <string name="haberler">News</string>
+    <string name="bugun">TODAY</string>
+    <string name="bugun_kucuk">Today</string>
+    <string name="vakit">TIME</string>
+    <string name="ayarlar">Settings</string>
+    <string name="push_kapat">Close</string>
+    <string name="push_goster">Show</string>
+    <string name="dollar">DOLLAR</string>
+    <string name="euro">EURO</string>
+    <string name="gold">GOLD</string>
+    <string name="imsak">FAJR</string>
+    <string name="gunes">SUN</string>
+    <string name="ogle">DHUHR</string>
+    <string name="ikindi">ASR</string>
+    <string name="aksam">MAGHRIB</string>
+    <string name="yatsi">ISHA</string>
+    <string name="bist">BIST 100</string>
+
+    <string name="html_content">
+        <![CDATA[
+        <!DOCTYPE html>
+
+            <head>
+            <style type="text/css">
+            @font-face { font-family: Exo-Black; src: url("file:///android_asset/fonts/Exo-Black.ttf") }
+            @font-face { font-family: Exo-BlackItalic; src: url("file:///android_asset/fonts/Exo-BlackItalic.ttf") }
+            @font-face { font-family: Exo-Bold; src: url("file:///android_asset/fonts/Exo-Bold.ttf") }
+            @font-face { font-family: Exo-BoldItalic; src: url("file:///android_asset/fonts/Exo-BoldItalic.ttf") }
+            @font-face { font-family: Exo-ExtraBold; src: url("file:///android_asset/fonts/Exo-ExtraBold.ttf") }
+            @font-face { font-family: Exo-ExtraBoldItalic; src: url("file:///android_asset/fonts/Exo-ExtraBoldItalic.ttf") }
+            @font-face { font-family: Exo-ExtraLight; src: url("file:///android_asset/fonts/Exo-ExtraLight.ttf") }
+            @font-face { font-family: Exo-ExtraLightItalic; src: url("file:///android_asset/fonts/Exo-ExtraLightItalic.ttf") }
+            @font-face { font-family: Exo-Italic; src: url("file:///android_asset/fonts/Exo-Italic.ttf") }
+            @font-face { font-family: Exo-Light; src: url("file:///android_asset/fonts/Exo-Light.ttf") }
+            @font-face { font-family: Exo-LightItalic; src: url("file:///android_asset/fonts/Exo-LightItalic.ttf") }
+            @font-face { font-family: Exo-Medium; src: url("file:///android_asset/fonts/Exo-Medium.ttf") }
+            @font-face { font-family: Exo-MediumItalic; src: url("file:///android_asset/fonts/Exo-MediumItalic.ttf") }
+            @font-face { font-family: Exo-Regular; src: url("file:///android_asset/fonts/Exo-Regular.ttf") }
+            @font-face { font-family: Exo-SemiBold; src: url("file:///android_asset/fonts/Exo-SemiBold.ttf") }
+            @font-face { font-family: Exo-SemiBoldItalic; src: url("file:///android_asset/fonts/Exo-SemiBoldItalic.ttf") }
+            @font-face { font-family: Exo-Thin; src: url("file:///android_asset/fonts/Exo-Thin.ttf") }
+            @font-face { font-family: Exo-ThinItalic; src: url("file:///android_asset/fonts/Exo-ThinItalic.ttf") }
+            </style>
+
+            <meta charset="UTF-8">
+                %1$s
+            </head>
+
+            <body>
+               <div class="app-cover %2$s"> %3$s </div>
+            </body>
+
+        </html>
+        ]]>
+    </string>
+</resources>

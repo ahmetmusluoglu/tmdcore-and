@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22000000">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:background="@drawable/controlbar_gradient"
+        android:rotation="180" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/controlbar_gradient" />
+
+    <LinearLayout style="@style/SparkTopBar">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/spark_player_title"
+                style="@style/SparkVideoTitle"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/spark_player_menu_button"
+                style="@style/SparkMenuButton"
+                android:layout_gravity="end" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/spark_fullscreen_button"
+                style="@style/SparkFullscreenButton"
+                android:layout_margin="8dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#32000000"
+            android:layout_margin="12dp">
+
+            <ImageButton
+                android:id="@+id/spark_fullscreen_button_mine"
+                style="@style/SparkFullscreenButton" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/middle_buttons_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/spark_play_button"
+            style="@style/SparkPlayButton.Play" />
+
+        <ImageButton
+            android:id="@+id/spark_pause_button"
+            style="@style/SparkPlayButton.Pause" />
+
+        <ImageButton
+            android:id="@+id/spark_replay_button"
+            style="@style/SparkPlayButton.Replay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingRight="12dp">
+
+        <LinearLayout
+            android:id="@+id/spark_bottom_bar"
+            style="@style/SparkBottomBar">
+
+            <TextView
+                android:id="@+id/spark_position"
+                style="@style/SparkPlayerTime.Current" />
+
+            <FrameLayout
+                android:id="@+id/spark_timebar_holder"
+                style="@style/SparkTimeBarHolder">
+
+                <com.spark.player.internal.SparkTimeBar
+                    android:id="@+id/spark_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/spark_duration"
+                style="@style/SparkPlayerTime.Duration" />
+
+            <LinearLayout
+                android:id="@+id/live_control"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/live_button" />
+
+                <TextView style="@style/SparkLiveControl" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/spark_player_gear_button"
+                style="@style/SparkGearButton"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

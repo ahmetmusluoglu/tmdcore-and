@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <turkuvaz.general.turkuvazgeneralwidgets.NewsSnap.Utils.MultiSnapRecyclerView
+        android:id="@+id/rec_snapNewsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minHeight="120dp"
+        app:msrv_gravity="start"
+        app:msrv_ms_per_inch="@dimen/normal_speed"
+        app:msrv_snap_count="1" />
+
+    <ImageButton
+        android:id="@+id/btn_previousSnap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ok_sol"
+        android:visibility="invisible" />
+
+
+    <ImageButton
+        android:id="@+id/btn_nextSnap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ok_sag"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_snapNewsTryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:text="@string/haber_bos"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:visibility="gone" />
+</FrameLayout>

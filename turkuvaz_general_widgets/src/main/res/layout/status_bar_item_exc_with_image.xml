@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layStatusBar"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#22242A"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_exchangeOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/left_gray_line"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_exchangeImage"
+            android:layout_width="24dp"
+            android:layout_height="46dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_exchangeImage"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="12dp">
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_exchangeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A9FFFFFF"
+                android:textSize="11dp"
+                app:fontType="Exo_SemiBold" />
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_exchangeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:fontType="Exo_SemiBold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

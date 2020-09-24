@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FotoGalleryModel</string>
+    <string name="manset_yuklenemedi">"Headline news could not be loaded.\nTouch to retry."</string>
+</resources>

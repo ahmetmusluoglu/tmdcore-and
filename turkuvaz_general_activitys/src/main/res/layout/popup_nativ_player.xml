@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow_popup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-6dp"
+            android:background="@drawable/shape_popup_back">
+
+            <ImageButton
+                android:id="@+id/btn_sparkPopupClose"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:padding="11dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_popup_close_white_24dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="9dp"
+                android:background="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_popup_move_white_24dp" />
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frameToolbar"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <turkuvaz.sdk.galleryslider.MediaPlayer.NativeMediaPlayer
+                android:id="@+id/nativeMediaPlayerPopup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

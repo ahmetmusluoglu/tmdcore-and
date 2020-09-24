@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/ic_update_ready" />
+
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_versionDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Title"
+            android:textColor="#EC9521"
+            android:textSize="15sp"
+            app:fontType="Exo_Bold" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_versionDialogMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Message"
+            android:textColor="#2B2B2B"
+            android:textSize="14sp"
+            app:fontType="Exo_SemiBold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_versionControlWhatsNewList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_versionDialogUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="55dp"
+                android:background="@drawable/shape_update_button"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Güncelle"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                app:fontType="Exo_Bold" />
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_versionDialogLater"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Daha Sonra"
+                android:textSize="14sp"
+                app:fontType="Exo_Regular" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

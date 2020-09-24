@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="turkuvaz.general.turkuvazgeneralactivitys.Settings.SettingsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ly_fontSizeChanger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_gray_toolbar_line"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:text="@string/yazi_boyutu_ayarla"
+            app:fontType="Exo_SemiBold" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_settingsFontSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/metin_boyutu_ayarla"
+            app:fontType="Exo_Regular" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_fontSizeChangerSmall"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/ic_font_size_gray" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/sb_settingsFontSizeChanger"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/img_fontSizeChangerBigger"
+                android:layout_toEndOf="@+id/img_fontSizeChangerSmall"
+                android:max="8" />
+
+            <ImageView
+                android:id="@+id/img_fontSizeChangerBigger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/ic_font_size_gray" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ly_fontSizeChanger" />
+
+</RelativeLayout>

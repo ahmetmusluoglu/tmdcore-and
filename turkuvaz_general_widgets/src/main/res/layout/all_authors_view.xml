@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/allAuthors_hintButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@android:color/white"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/yazar_sec"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/awesomeSpinner_hintTextSize" />
+
+    <ImageView
+        android:id="@+id/allAuthors_downArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_arrow_drop_down" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/allAuthors_hintButton" />
+
+
+    <turkuvaz.general.turkuvazgeneralwidgets.AllAuthors.spinnerDefaultSelection
+        android:id="@+id/allAuthors_spinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/allAuthors_hintButton"
+        android:spinnerMode="dropdown" />
+
+</merge>

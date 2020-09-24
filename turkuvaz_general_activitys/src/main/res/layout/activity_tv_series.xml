@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <turkuvaz.general.turkuvazgeneralwidgets.CategoryTabs.CategoryTabs
+        android:id="@+id/categoryTabs_videoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/RLTabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#E8EBEC"
+        android:paddingStart="9dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="9dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:padding="1dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txtTab1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tabs_active_back"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="@string/guncelDiziler"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtTab2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tabs_inactive_back"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="@string/arsivDiziler"
+                android:textColor="#CC000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_tvSeriesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RLTabs" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.SuccessOrErrorBar.LoadStatus
+        android:id="@+id/ls_tvSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/relLayVideoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+
+</RelativeLayout>

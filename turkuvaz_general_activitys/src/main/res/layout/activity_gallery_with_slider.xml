@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beyaz">
+
+    <FrameLayout
+        android:id="@+id/frame_infinityToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageViewGalleryBack"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center_vertical"
+            android:background="@android:color/transparent"
+            android:onClick="finishGallery"
+            android:padding="16dp"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <ImageView
+            android:id="@+id/img_infinityAppIcon"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:onClick="clickToolbarLogo" />
+
+        <ImageButton
+            android:id="@+id/imageViewGalleryHome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|center_vertical"
+            android:background="@android:color/transparent"
+            android:onClick="jumpToTop"
+            android:padding="12dp"
+            android:src="@drawable/ic_home_black_24dp" />
+
+    </FrameLayout>
+
+    <ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator
+        android:id="@+id/pager_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame_infinityToolbar"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        app:spi_dotColor="#CCC"
+        app:spi_dotSelectedColor="#000" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pager_indicator"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:focusableInTouchMode="true" />
+
+    <RelativeLayout
+        android:id="@+id/rlPrev"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-25dp"
+        android:background="@drawable/arrow_back"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgPrev"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:paddingStart="12dp"
+            android:src="@drawable/ic_arrow_left_white_48dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNext"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="-25dp"
+        android:background="@drawable/arrow_back"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgNext"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:paddingEnd="12dp"
+            android:src="@drawable/ic_arrow_right_white_48dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

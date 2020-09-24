@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="vertical">
+<!--  android:background="@color/colorSocialBarColor"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/frame_facebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0.5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imvFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_facebook_white_fill" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_twitter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0.5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imvTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_twitter_white_fill" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_instagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0.5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imvInstagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_instagram_white_fill" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_youtube"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imvYoutube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_youtube_white_fill" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#39393D" />
+</RelativeLayout>

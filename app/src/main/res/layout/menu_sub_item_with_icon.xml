@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relLayBackLeftDetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp">
+
+    <ImageView
+        android:id="@+id/img_drawerMenuIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/tv_drawerSubMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/frame_menuIcon"
+        android:paddingStart="16dp"
+        android:paddingEnd="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:fontType="Exo_Bold" />
+
+    <FrameLayout
+        android:id="@+id/frame_menuIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/shape_menu_icon_back">
+
+        <ImageView
+            android:id="@+id/img_menuIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/itemSubDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</RelativeLayout>

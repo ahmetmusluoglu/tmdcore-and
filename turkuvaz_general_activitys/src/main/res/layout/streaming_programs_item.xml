@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layStreamProgramLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_gray_line_archive"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/tv_streamingProgramsTime"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:fontType="Exo_Bold" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/tv_streamingProgramsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:textSize="16sp"
+        app:fontType="Exo_Regular" />
+</LinearLayout>

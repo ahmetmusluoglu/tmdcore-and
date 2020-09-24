@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="turkuvaz.sdk.galleryslider.ListGallery.VideoListDetailsActivity">
+
+    <turkuvaz.sdk.galleryslider.LockableScrollView
+        android:id="@+id/sv_videoListDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frame_videoDetailsTopBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp" />
+
+            <FrameLayout
+                android:id="@+id/frame_videoContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_videoDetailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontType="Exo_Bold" />
+
+<!--            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView-->
+<!--                android:id="@+id/tv_videoDetailDate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:paddingLeft="12dp"-->
+<!--                android:paddingRight="12dp"-->
+<!--                android:text=""-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="18sp"-->
+<!--                app:fontType="Exo_Black" />-->
+
+            <TextView
+                android:id="@+id/tv_videoDetailDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+                android:id="@+id/tv_videoDetailSpot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                app:fontType="Exo_Bold" />
+
+            <turkuvaz.sdk.global.SpecialWebView
+                android:id="@+id/web_videoDetailContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_videoDetailRelated"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:isScrollContainer="false" />
+
+            <FrameLayout
+                android:id="@+id/frame_videoDetailsBottomBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp" />
+
+        </LinearLayout>
+
+    </turkuvaz.sdk.galleryslider.LockableScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relLayVideoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.SuccessOrErrorBar.LoadStatus
+        android:id="@+id/ls_videoListDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

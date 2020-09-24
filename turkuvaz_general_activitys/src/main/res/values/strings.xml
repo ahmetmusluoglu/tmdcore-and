@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TurkuvazGeneralActivitys</string>
+    <string name="title_activity_internal_browser">InternalBrowser</string>
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="on_off">Aç / Kapat</string>
+    <!--Drawer Menu - Contact Us Start-->
+    <!--NOTE: Values of queries added in code.-->
+    <string name="contact_us_url_pid">https://bizeulasin.tmgrup.com.tr/contactus/form?pid=</string>
+    <string name="contact_us_operator">&amp;operator=</string>
+    <string name="contact_us_operator_non">Non</string>
+    <string name="contact_us_push_token">&amp;token=</string>
+    <string name="contact_us_push_token_non">Non</string>
+    <string name="contact_us_app_version">&amp;appv=</string>
+    <string name="contact_us_device_model">&amp;devicemodel=</string>
+    <string name="contact_us_app_ref">&amp;appref=</string>
+    <string name="contact_us_internet">&amp;internet=</string>
+    <string name="contact_us_internet_wifi">WiFi</string>
+    <string name="contact_us_internet_mobile">Mobile</string>
+    <string name="contact_us_internet_mobile_2g">2G</string>
+    <string name="contact_us_internet_mobile_3g">3G</string>
+    <string name="contact_us_internet_mobile_4g">4G</string>
+    <string name="contact_us_internet_non">Not connected network</string>
+    <string name="contact_us_os">&amp;os=</string>
+    <string name="contact_us_device_id">&amp;deviceid=</string>
+    <string name="contact_us_screen_size">&amp;screensize=</string>
+    <string name="title_activity_news_details">NewsDetailsActivity</string>
+    <!--Drawer Menu - Contact Us Close-->
+
+    <string name="tum_yazilari">Tüm Yazıları</string>
+    <string name="yaziyi_paylas">Yazıyı Paylaş</string>
+    <string name="galeri_title">"Galeri - "</string>
+    <string name="haber_title">"Haber - "</string>
+    <string name="program_title">"Programlar - "</string>
+    <string name="yukleniyor">"Yükleniyor..."</string>
+    <string name="paylas">"Paylaş!"</string>
+    <string name="canli_yayin">Canlı Yayın</string>
+    <string name="bildirimler">Bildirimler</string>
+    <string name="ac_kapat">Aç / Kapat</string>
+    <string name="galeri_hata">Galeri yüklenirken bir hata oluştu. Internet bağlantınızı kontrol ediniz.</string>
+<!--    <string name="son_guncelleme">"Son Güncelleme:\n"</string>-->
+    <string name="son_guncelleme"><![CDATA[Son Güncelleme:<br/>%1$s%2$s]]></string>
+    <string name="source_name">Kaynak:</string>
+    <string name="yazi_boyutu_ayarla">Yazı Boyutunu Ayarla</string>
+    <string name="metin_boyutu_ayarla">Bu özellik ile içerik metin boyutunu ayarlayabilirsiniz.</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="sayfa_hata">"Sayfa yüklenirken bir hata oluştu. \nDaha sonra tekrar deneyin."</string>
+
+    <string name="html_content_columnist">
+        <![CDATA[
+        <!DOCTYPE html>
+            <head>
+                <meta charset="UTF-8">
+            </head>
+            <body>
+                <p><a style="color : #4a90e2; text-decoration: none;">Yasal Uyarı: Yayınlanan köşe yazısı/haberin tüm hakları Turkuvaz Medya Grubu’na aittir. Kaynak gösterilse veya habere aktif link verilse dahi köşe yazısı/haberin tamamı ya da bir bölümü kesinlikle kullanılamaz. Ayrıntılar için lütfen tıklayınız.</a></p>
+            </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="html_content">
+        <![CDATA[
+        <!DOCTYPE html>
+
+            <head>
+            <style type="text/css">
+            @font-face { font-family: Exo-Black; src: url("file:///android_asset/fonts/Exo-Black.ttf") }
+            @font-face { font-family: Exo-BlackItalic; src: url("file:///android_asset/fonts/Exo-BlackItalic.ttf") }
+            @font-face { font-family: Exo-Bold; src: url("file:///android_asset/fonts/Exo-Bold.ttf") }
+            @font-face { font-family: Exo-BoldItalic; src: url("file:///android_asset/fonts/Exo-BoldItalic.ttf") }
+            @font-face { font-family: Exo-ExtraBold; src: url("file:///android_asset/fonts/Exo-ExtraBold.ttf") }
+            @font-face { font-family: Exo-ExtraBoldItalic; src: url("file:///android_asset/fonts/Exo-ExtraBoldItalic.ttf") }
+            @font-face { font-family: Exo-ExtraLight; src: url("file:///android_asset/fonts/Exo-ExtraLight.ttf") }
+            @font-face { font-family: Exo-ExtraLightItalic; src: url("file:///android_asset/fonts/Exo-ExtraLightItalic.ttf") }
+            @font-face { font-family: Exo-Italic; src: url("file:///android_asset/fonts/Exo-Italic.ttf") }
+            @font-face { font-family: Exo-Light; src: url("file:///android_asset/fonts/Exo-Light.ttf") }
+            @font-face { font-family: Exo-LightItalic; src: url("file:///android_asset/fonts/Exo-LightItalic.ttf") }
+            @font-face { font-family: Exo-Medium; src: url("file:///android_asset/fonts/Exo-Medium.ttf") }
+            @font-face { font-family: Exo-MediumItalic; src: url("file:///android_asset/fonts/Exo-MediumItalic.ttf") }
+            @font-face { font-family: Exo-Regular; src: url("file:///android_asset/fonts/Exo-Regular.ttf") }
+            @font-face { font-family: Exo-SemiBold; src: url("file:///android_asset/fonts/Exo-SemiBold.ttf") }
+            @font-face { font-family: Exo-SemiBoldItalic; src: url("file:///android_asset/fonts/Exo-SemiBoldItalic.ttf") }
+            @font-face { font-family: Exo-Thin; src: url("file:///android_asset/fonts/Exo-Thin.ttf") }
+            @font-face { font-family: Exo-ThinItalic; src: url("file:///android_asset/fonts/Exo-ThinItalic.ttf") }
+            </style>
+
+            <meta charset="UTF-8">
+                %1$s
+            </head>
+
+            <body>
+               <div class="app-cover %2$s"> %3$s </div>
+            </body>
+
+        </html>
+        ]]>
+    </string>
+
+    <string name="text_content" tools:ignore="MissingTranslation">
+        <![CDATA[
+        <!DOCTYPE html>
+
+            <head>
+
+            <meta charset="UTF-8">
+                %1$s
+            </head>
+
+            <body>
+               <div class="app-cover %2$s"> %3$s </div>
+            </body>
+
+        </html>
+        ]]>
+    </string>
+
+    <string name="title_activity_fullscreen_video">FullscreenVideo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_share">Paylaş</string>
+
+    <string name="next">SONRAKİ</string>
+    <string name="skip">ATLA</string>
+    <string name="start">BAŞLA</string>
+    <string name="guncelDiziler">Güncel Diziler</string>
+    <string name="arsivDiziler">Arşiv Dizileri</string>
+
+</resources>

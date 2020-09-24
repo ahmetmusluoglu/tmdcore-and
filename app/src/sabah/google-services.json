@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "75672863447",
+    "firebase_url": "https://sabah-ios-android.firebaseio.com",
+    "project_id": "sabah-ios-android",
+    "storage_bucket": "sabah-ios-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75672863447:android:3fd1c74aaf86a233",
+        "android_client_info": {
+          "package_name": "tr.sabah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75672863447-0h6qjgknti0b9hfurflforpct8920cmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tr.sabah",
+            "certificate_hash": "ca1e0db9f61c8cf1dda76701a4424700138cffe9"
+          }
+        },
+        {
+          "client_id": "75672863447-uni86s6mrh4gtb2fskd5r94dpqmk1p0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxokk34NPTL5DFdOT6E9JkfvP2V3c1pv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75672863447-uni86s6mrh4gtb2fskd5r94dpqmk1p0g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "75672863447-nln0vb5dh7dr9lie6f8pf3f6jon3540b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turkuvaz.isabah",
+                "app_store_id": "501113326"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

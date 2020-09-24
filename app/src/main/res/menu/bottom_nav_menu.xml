@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Anasayfa" />
+
+    <item
+        android:id="@+id/navigation_authors"
+        android:icon="@drawable/ic_authors_black"
+        android:title="Yazarlar" />
+
+    <item
+        android:id="@+id/navigation_video_gallery"
+        android:icon="@drawable/ic_video_gallery_black"
+        android:title="Videolar" />
+
+    <item
+        android:id="@+id/navigation_photo_gallery"
+        android:icon="@drawable/ic_photo_gallery_black"
+        android:title="Galeriler" />
+
+</menu>

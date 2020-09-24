@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="authors_title_color">#858585</color>
+    <color name="authors_description_color">#232323</color>
+
+    <color name="black_overlay">#66000000</color>
+    
+    <color name="background">#1E6487</color>
+    <color name="dot_active">#FFFFFF</color>
+    <color name="dot_inactive">#90CCCCCC</color>
+
+</resources>

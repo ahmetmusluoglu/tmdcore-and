@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SonDakika">
+        <attr name="apiUrl" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollingPagerIndicator">
+        <attr name="spi_dotColor" format="color" />
+        <attr name="spi_dotSelectedColor" format="color" />
+        <attr name="spi_dotSize" format="dimension" />
+        <attr name="spi_dotSelectedSize" format="dimension" />
+        <attr name="spi_dotSpacing" format="dimension" />
+        <attr name="spi_visibleDotCount" format="integer" />
+        <attr name="spi_visibleDotThreshold" format="integer" />
+        <attr name="spi_looped" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiSnapRecyclerView">
+        <attr name="msrv_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="start" value="1"/>
+            <enum name="end" value="2"/>
+        </attr>
+        <attr name="msrv_snap_count" format="integer"/>
+        <attr name="msrv_ms_per_inch" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="TTextView">
+        <attr name="fontType" format="enum">
+            <enum name="Exo_Black" value="1" />
+            <enum name="Exo_BlackItalic" value="2" />
+            <enum name="Exo_Bold" value="3" />
+            <enum name="Exo_BoldItalic" value="4" />
+            <enum name="Exo_ExtraBold" value="5" />
+            <enum name="Exo_ExtraBoldItalic" value="6" />
+            <enum name="Exo_ExtraLight" value="7" />
+            <enum name="Exo_ExtraLightItalic" value="8" />
+            <enum name="Exo_Italic" value="9" />
+            <enum name="Exo_Light" value="10" />
+            <enum name="Exo_LightItalic" value="11" />
+            <enum name="Exo_Medium" value="12" />
+            <enum name="Exo_MediumItalic" value="13" />
+            <enum name="Exo_Regular" value="14" />
+            <enum name="Exo_SemiBold" value="15" />
+            <enum name="Exo_SemiBoldItalic" value="6" />
+            <enum name="Exo_Thin" value="17" />
+            <enum name="Exo_ThinItalic" value="18" />
+        </attr>
+
+        <attr name="itemType" format="enum">
+            <enum name="Title" value="1" />
+            <enum name="TitleShort" value="2" />
+            <enum name="Spot" value="3" />
+            <enum name="SpotShort" value="4" />
+            <enum name="Description" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="interval" format="integer"/>
+    <attr name="showIndicator" format="boolean"/>
+    <attr name="orientation" format="enum">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+    <attr name="autoPlaying" format="boolean"/>
+    <declare-styleable name="RecyclerViewBannerBase">
+        <attr name="interval"/>
+        <attr name="showIndicator" />
+        <attr name="orientation" />
+        <attr name="autoPlaying"/>
+        <attr name="indicatorSelectedSrc" format="color|reference"/>
+        <attr name="indicatorUnselectedSrc" format="color|reference"/>
+        <attr name="indicatorSpace" format="dimension|reference"/>
+        <attr name="indicatorMarginLeft" format="dimension|reference"/>
+        <attr name="indicatorMarginRight" format="dimension|reference"/>
+        <attr name="indicatorMarginBottom" format="dimension|reference"/>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BannerLayout">
+        <attr name="interval" />
+        <attr name="showIndicator" />
+        <attr name="orientation" />
+        <attr name="autoPlaying"/>
+        <attr name="itemSpace" format="integer"/>
+        <attr name="centerScale" format="float"/>
+        <attr name="moveSpeed" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="AllAuthorsStyle">
+
+        <attr name="spinnerDirection" format="string">
+            <flag name="ltr" value="0" />
+            <flag name="rtl" value="1" />
+        </attr>
+
+        <attr name="spinnerHint" format="string"/>
+
+    </declare-styleable>
+
+
+
+</resources>

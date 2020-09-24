@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="last_minute_red">#E72323</color>
+    <color name="dark_gray">#141111</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dotNormal">#707dc6</color>
+    <color name="dotHighlight">#f43d7b</color>
+
+    <color name="dark_gray_bar">#22242A</color>
+    <color name="exchange_up">#CC00E676</color>
+    <color name="exchange_down">#FF1744</color>
+    <color name="exchange_stab">#FFFFFF</color>
+    <color name="news_list_gray">#E8EBEC</color>
+
+    <color name="siyah">#000000</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="beyaz2">#A9FFFFFF</color>
+    <color name="colorSocialBarColor">#0C3B3A</color>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_newsRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/tv_authorRootTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_gray_toolbar_line"
+            android:padding="10dp"
+            android:text="@string/yazarlar"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            app:fontType="Exo_SemiBold" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.GeneralUtils.LoopViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_authorRootTitle"
+            android:minHeight="90dp" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pager"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            app:fillColor="@color/colorAccent"
+            app:pageColor="@android:color/darker_gray"
+            app:strokeColor="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btn_mansetTryAgain"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:text="@string/yazarlar_yuklenemedi"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/frame_fullPopup"
+    android:layout_height="wrap_content">
+
+    <turkuvaz.sdk.global.SparkPlayerViewPopup
+        android:id="@+id/sparkplayer_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

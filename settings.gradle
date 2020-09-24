@@ -1,0 +1,1 @@
+include ':app', ':turkuvaz_api_client', ':turkuvaz_models', ':turkuvaz_global', ':turkuvaz_photo_gallery', ':turkuvaz_video_gallery', ':turkuvaz_general_widgets', ':turkuvaz_general_activitys'

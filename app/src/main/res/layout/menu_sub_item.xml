@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relLayBackLeftDetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/tv_drawerSubMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:textSize="13sp"
+        app:fontType="Exo_SemiBold" />
+
+    <View
+        android:id="@+id/itemSubDivider"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_height="1dp" />
+</RelativeLayout>

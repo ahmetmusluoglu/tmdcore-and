@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#091A37</color>
+    <color name="colorPrimaryDark">#081323</color>
+    <color name="colorAccent">#081323</color>
+
+    <color name="colorMenuHeader">#091A37</color>
+
+    <color name="statusBarColor">#091A37</color>
+    <color name="primaryMenuColor">#2555a1</color>
+    <color name="activeMenuColor">#17458e</color>
+    <color name="subMenuDividerColor">#ebebeb</color>
+    <color name="menuDividerColor">#FCFCFC</color>
+    <color name="socialBorderColor">#4a76b6</color>
+    <color name="socialBackColor">#091A37</color>
+
+    <!-- SABAH -->
+    <color name="toolbar_back">#FFFFFF</color>
+    <color name="toolbar_icon">#000000</color>
+    <color name="left_menu_back">#ebebeb</color>
+    <color name="left_menu_top_back">#081323</color>
+    <color name="left_menu_top_icon">#FFFFFF</color>
+    <color name="left_menu_list_back">#ebebeb</color>
+    <color name="left_menu_list_icon">#444444</color>
+    <color name="left_menu_list_detail_back">#ffffff</color>
+    <color name="left_menu_list_detail_icon">#444444</color>
+    <color name="last_minute_back_left">#081323</color>
+    <color name="last_minute_text_left">#FFFFFF</color>
+    <color name="last_minute_back_right">#E72323</color>
+    <color name="last_minute_text_right">#FFFFFF</color>
+    <!--<color name="status_bar_city_back">#22242A</color>
+    <color name="status_bar_city_text">#FFFFFF</color>
+    <color name="status_bar_icon">#363D46</color>
+    <color name="status_bar_back_close">#363D46</color>
+    <color name="status_bar_back_open">#22242A</color>
+    <color name="status_bar_widget_title">#A9FFFFFF</color>
+    <color name="status_bar_widget_value">#FFFFFF</color>-->
+
+    <color name="status_bar_city_back">#FFFFFF</color>
+    <color name="status_bar_city_text">#666666</color>
+    <color name="status_bar_icon">#a8a8a8</color>
+    <color name="status_bar_back_close">#e8e8e8</color>
+    <color name="status_bar_back_open">#FFFFFF</color>
+    <color name="status_bar_widget_title">#363d46</color>
+    <color name="status_bar_widget_value">#363d46</color>
+    <color name="bottom_bar_back">#ffffff</color>
+    <color name="bottom_bar_selected">#a20000</color>
+    <color name="bottom_bar_unselected">#000000</color>
+    <color name="splash_back">#091A37</color>
+    <color name="splash_text">#FFFFFF</color>
+    <color name="social_bar_back">#091A37</color>
+    <color name="social_bar_icon">#FFFFFF</color>
+    <color name="columnist_button_back">#FFFFFF</color>
+    <color name="columnist_button_text">#081323</color>
+    <color name="columnist_button_edge">#081323</color>
+    <color name="columnist_profil_frame">#081323</color>
+    <color name="columnist_bottom_line">#081323</color>
+    <color name="tv_stream_back">#000000</color>
+    <color name="tv_stream_text">#FFFFFF</color>
+    <color name="tv_stream_button_back">#000000</color>
+    <color name="tv_stream_button_text">#FFFFFF</color>
+    <color name="siyah">#000000</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="beyaz2">#A9FFFFFF</color>
+    <color name="colorSocialBarColor">#0C3B3A</color>
+</resources>

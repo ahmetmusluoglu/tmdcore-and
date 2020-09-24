@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/shadow_popup"
+    android:layout_height="wrap_content">
+    <com.spark.player.SparkPlayer
+        android:id="@+id/spark_playerVideoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:float_mode="true"
+        app:full_frame_thumbnails="true"
+        app:position_memory="true"
+        app:thumbnails="true"
+        app:vr_mode="false"
+        app:watch_next="true" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FotoGalleryModel</string>
+    <string name="manset_yuklenemedi">"Manşet haberler yüklenemedi.\nYeniden denemek için dokunun."</string>
+</resources>

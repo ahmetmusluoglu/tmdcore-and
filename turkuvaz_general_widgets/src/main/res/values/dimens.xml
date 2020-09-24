@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_spinner_item_padding">0dp</dimen>
+    <dimen name="status_bar_expand_height">75dp</dimen>
+
+    <item name="normal_speed" format="float" type="dimen">100</item>
+    <item name="high_speed" format="float" type="dimen">50</item>
+    <item name="low_speed" format="float" type="dimen">120</item>
+
+
+    //-------- All Authors Spinner ---------
+    <dimen name="awesomeSpinner_margin">12dp</dimen>
+    <dimen name="awesomeSpinner_hintTextSize">16sp</dimen>
+    <dimen name="awesomeSpinner_marginBottom">20dp</dimen>
+    <dimen name="awesomeSpinner_marginBottomFromSectionTitle">60dp</dimen>
+
+
+    //-------- All Authors items -----------
+    <dimen name="awesomeSpinner_item_textSize">17sp</dimen>
+
+</resources>

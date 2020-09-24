@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_headerBackHome"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/colorMenuHeader"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingStart="12dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingEnd="0dp"
+    android:paddingBottom="12dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_mini_logo" />
+
+    <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/nav_header_subtitle"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:fontType="Exo_Regular" />
+
+</LinearLayout>

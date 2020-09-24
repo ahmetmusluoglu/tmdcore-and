@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center|start"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/vLine"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="#CCCCCC"
+            android:visibility="visible" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:src="@drawable/columnist_empty" />
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/txtSource"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center"
+            android:gravity="center|start"
+            android:padding="2dp"
+            android:text="---"
+            android:textColor="#d11919"
+            android:textSize="11sp"
+            app:fontType="Exo_Bold" />
+    </LinearLayout>
+</RelativeLayout>

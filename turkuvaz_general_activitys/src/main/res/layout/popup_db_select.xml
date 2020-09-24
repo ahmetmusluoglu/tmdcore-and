@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <turkuvaz.general.turkuvazgeneralwidgets.TurkuvazTextView.TTextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Veritabanı Seçin"
+            android:textSize="24sp"
+            app:fontType="Exo_SemiBold"/>
+
+        <RadioGroup
+            android:id="@+id/rgVeritabaniSec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:checkedButton="@+id/rbCanli">
+
+                <RadioButton
+                    android:id="@+id/rbCanli"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="CANLI"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold" />
+
+                <RadioButton
+                    android:id="@+id/rbQA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="QA"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold" />
+
+                <RadioButton
+                    android:id="@+id/rbTest"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TEST"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnDbSec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SEÇ" />
+    </LinearLayout>
+
+</LinearLayout>

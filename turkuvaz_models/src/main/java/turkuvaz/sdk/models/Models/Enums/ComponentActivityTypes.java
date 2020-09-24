@@ -1,0 +1,13 @@
+package turkuvaz.sdk.models.Models.Enums;
+
+public enum ComponentActivityTypes {
+    CATEGORY_GALLERY,
+    CATEGORY_VIDEO,
+    CATEGORY_NEWS,
+    CATEGORY_NEWS_SPORT,
+    CATEGORY_PROGRAMS,
+    CATEGORY_KUNYE,
+    CATEGORY_VERI_POLITIKASI,
+    CATEGORY_GIZLILIK_BILDIRIMI,
+    HOME_SCREEN
+}
